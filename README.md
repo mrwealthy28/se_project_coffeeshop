@@ -15,3 +15,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 (Here's a screenshot of the recipes section with two videos created using the iframe element. Enjoy!)
 
 ## Plan on improving the project
+- Plan on adding more videos and also some cool animations in the future!
