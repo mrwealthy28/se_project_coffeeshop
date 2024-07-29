@@ -60,11 +60,10 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <div>
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -112,6 +111,7 @@
                   type="text"
                   class="form__input"
                   placeholder="Name surname"
+                  required
                 />
               </label>
               <label class="form__label">
@@ -119,16 +119,22 @@
                   type="number"
                   class="form__input"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <label class="form__label">
-                Date & time *<input type="datetime-local" class="form__input" />
+                Date & time *<input
+                  type="datetime-local"
+                  class="form__input"
+                  required
+                />
               </label>
               <label class="form__label">
                 Your email *<input
                   type="email"
                   class="form__input"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
             </fieldset>
@@ -238,7 +244,7 @@
         </section>
         <section id="about" class="about">
           <div class="about__circle"></div>
-          <div class="about__circle_animated_blurred"></div>
+          <div class="about__circle about__circle_animated_blurred"></div>
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -263,7 +269,7 @@
             alt="Triple Espresso Logo"
             class="footer__logo"
           />
-          <div class="footer__social-media_links">
+          <div class="footer__media-content">
             <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">

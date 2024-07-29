@@ -4,11 +4,12 @@
   }
 
   50% {
-    opacity: 0.6%;
+    opacity: 60%;
   }
 
-  to {
+  100% {
     transform: scale(1.5);
+    opacity: 0;
   }
 }
 
@@ -28,7 +29,7 @@
   margin: 0;
   position: relative;
   top: -19px;
-  font-family: "Inter";
+  font-family: "Inter, Arial, sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -42,7 +43,7 @@
 
 .about__paragraph {
   margin: 0 0 20px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif, Times New Roman, serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -64,12 +65,6 @@
 }
 
 .about__circle_animated_blurred {
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   background-color: #2f80ed;
   animation-name: pulsate;
   animation-timing-function: ease-in-out;

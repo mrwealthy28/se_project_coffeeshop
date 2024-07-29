@@ -12,7 +12,7 @@
   margin: 0 auto 24px;
   text-align: center;
   max-width: 780px;
-  font-family: "Inter";
+  font-family: "Inter, Arial, sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -23,7 +23,7 @@
   margin: 0 auto 100px;
   text-align: center;
   max-width: 780px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif, Times New Roman, serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -39,44 +39,9 @@
   gap: 100px;
   width: 100%;
   list-style-type: none;
-  font-family: "Inter";
+  font-family: "Inter, Arial, sans-serif";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-}
-
-.card {
-  width: 540px;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__title {
-  margin: 0 0 32px auto;
-}
-
-.card__list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card__list-item {
-  display: flex;
-  margin-bottom: 16px;
-}
-
-.card__list-item:last-child {
-  margin-bottom: 0;
-}
-
-.card__list-divider {
-  flex-grow: 1;
-  border-bottom: 1px solid black;
-  padding: 0;
-  margin: 0 5px;
 }
