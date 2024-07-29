@@ -61,6 +61,7 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
+  transition: color 200ms linear;
 }
 
 .footer__social-icon {
@@ -69,7 +70,7 @@
 }
 
 .footer__copyright {
-  padding: 108px 0 80px;
+  padding: 108px 0 0;
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
