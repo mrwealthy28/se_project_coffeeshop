@@ -29,7 +29,7 @@
   margin: 0;
   position: relative;
   top: -19px;
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -43,7 +43,7 @@
 
 .about__paragraph {
   margin: 0 0 20px;
-  font-family: "Noto Serif, Times New Roman, serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
