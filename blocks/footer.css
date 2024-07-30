@@ -61,7 +61,7 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  transition: color 200ms linear;
+  transition: color 250ms linear;
 }
 
 .footer__social-icon {
